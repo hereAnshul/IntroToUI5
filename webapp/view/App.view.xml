@@ -1,0 +1,10 @@
+<mvc:View
+    controllerName="sap.ui.introtoui5.controller.App"    
+
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <!-- <Text text="Text from control in XML view"/> -->
+    <Button
+        text="Text of btn from controller"
+        press=".onClickShowSomething"/>
+</mvc:View>
