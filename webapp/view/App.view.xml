@@ -4,7 +4,13 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
     <!-- <Text text="Text from control in XML view"/> -->
+    <Input 
+        value="{/recipient/name}"
+        description="Well hello there, {/recipient/name}"
+        valueLiveUpdate="true"
+        width="auto" />
     <Button
-        text="Text of btn from controller"
+        text="{i18n>showBtn1Text}"
         press=".onClickShowSomething"/>
+    
 </mvc:View>
