@@ -4,9 +4,9 @@
     "start_url": "index.html",
  
     "sap.app": {
-        "id": "sap.fiori.appName",
+        "id": "sap.ui.introtoui5",
         "type": "application",
-        "i18n": "",
+        "i18n": "i18n/i18n.properties",
         "applicationVersion": {
             "version": "1.2.2"
         },
@@ -238,7 +238,7 @@
         "deviceTypes": {
             "desktop": true,
             "tablet": true,
-            "phone": false
+            "phone": true
         },
         "fullWidth": true
     },
@@ -294,8 +294,8 @@
             }
         },
         "rootView": {
-            "viewName": "sap.ui.test.view.Main",
-            "id" : "rootView",
+            "viewName": "sap.ui.introtoui5.view.App",
+            "id" : "LearnenApp",
             "async": true,
             "type": "XML"
         },
